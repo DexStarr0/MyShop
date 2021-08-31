@@ -11,35 +11,35 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Itim&family=Poppins:ital@1&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
 </head>
 
 <body>
     <!-- navigation bar and font screen -->
+
     <div class="banner">
         <div>
             <nav class="navbar">
                 <h1 id="saare" class="logo">SAARE</h1>
-                <div class="nav_link">
-                    <i class="fas fa-times"></i>
-                    <ul>
-                        <li><a href="#">HOME</a></li>
-                        <li><a href="#palang">PALANG</a></li>
-                        <li><a href="#Almirah">ALMIRA</a></li>
-                        <li><a href="#Other_product">OTHER PRODUCT</a></li>
-                        <li><a href="#owner_detail">CONTACT</a></li>
-                    </ul>
+                <div class="dropdown nav_link">
+                    <button onclick="clicked()" class="dropdown-btn"> <i class="fas fa-bars"></i></button>
+                    <div id="target" class="dropdown-items">
+                        <ul>
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#palang">PALANG</a></li>
+                            <li><a href="#Almirah">ALMIRA</a></li>
+                            <li><a href="#Other_product">OTHER PRODUCT</a></li>
+                            <li><a href="#owner_detail">CONTACT</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <i class="fas fa-bars"></i>
             </nav>
         </div>
-        
+
         <section class="content">
             <h1>Ms. Saurav and Ayush Raj Enterprises</h1>
-            <p>This is not only the shop but also place of your desire of good qulity product at low price.we Provide
-                every things like Almirah,Bed,Matress, <br> Pillows,Playwood,etc that you may desire to get.You no need
-                to go to any other places for good quality product . </p>
+            <p>This is not only the shop but also place of your desire of good qulity product at low price.we Provide every things like Almirah,Bed,Matress, <br> Pillows,Playwood,etc that you may desire to get.You no need to go to any other places for good
+                quality product . </p>
             <a href="#palang">Explore Us</a>
         </section>
     </div>
@@ -289,7 +289,7 @@
                     </div>
                     <p class="caution"><b>सावधान : मूल्य आगमन के समय भिन्न हो सकता है।</b></p>
                 </div>
-                
+
             </div>
         </div>
     </section>
@@ -330,7 +330,7 @@
                     </div>
                     <p class="caution"><b>सावधान : मूल्य आगमन के समय भिन्न हो सकता है।</b></p>
                 </div>
-            
+
             </div>
         </div>
     </section>
@@ -351,9 +351,9 @@
                         <span>Director</span>
                     </h1>
                     <ul>
-                        <li><a href="#" target="_blank" title="No Social Media" ><i class="fas fa-plane"></i></a></li>
-                        <li><a href="#" target="_blank" title="YouTube" ><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
-                        <li><a href="#" target="_blank" title="No Social Media" ><i class="fas fa-plane"></i></a></li>
+                        <li><a href="#" target="_blank" title="No Social Media"><i class="fas fa-plane"></i></a></li>
+                        <li><a href="#" target="_blank" title="YouTube"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                        <li><a href="#" target="_blank" title="No Social Media"><i class="fas fa-plane"></i></a></li>
                     </ul>
                     <a class="btn" href="tel:9934081418">Cotact Me</a>
                 </div>
@@ -369,10 +369,10 @@
                         <span>Co-Director</span>
                     </h1>
                     <ul>
-                        <li><a href="#" target="_blank" title="YouTube" ><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                        <li><a href="#" target="_blank" title="YouTube"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
                         <li><a href="https://wa.me/message/UBN4BJLBOIHDP1" target="_blank" title="what's app"><i
                                     class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
-                        <li><a href="#" target="_blank" title="YouTube" ><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#" target="_blank" title="YouTube"><i class="fab fa-instagram"></i></a></li>
                     </ul>
                     <a class="btn" href="tel:09835683659">Cotact Me</a>
                 </div>
@@ -409,8 +409,7 @@
             <div class="info1">
                 <h2 class="info_heading">contact us</h2>
                 <p>
-                    <a class="link_info" href="https://maps.app.goo.gl/sEpJRPH5oC2nRrPF8" target="_blank"
-                        title="Location">Locate us <i class="fas fa-map-marked-alt"></i></a>
+                    <a class="link_info" href="https://maps.app.goo.gl/sEpJRPH5oC2nRrPF8" target="_blank" title="Location">Locate us <i class="fas fa-map-marked-alt"></i></a>
                 </p>
             </div>
             <div class="info1">
@@ -422,6 +421,7 @@
 
             </div>
     </section>
+    <script src="index.js"></script>
 </body>
 
 </html>
