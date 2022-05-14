@@ -5,8 +5,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
-  font-family: "Gumela";
+  /* font-family: "Gumela"; */
 }
 
 /* navigation bar and font screen */
@@ -70,7 +69,6 @@ div .content a:hover {
   margin-top: 20px;
   margin-bottom: 15px;
   color: #000;
-  /* font-family: "Itim", cursive; */
 }
 .categories_header::after {
   content: "";
@@ -154,7 +152,6 @@ div .content a:hover {
   color: #000;
   position: relative;
   left: 50%;
-  /* font-family: "Itim", cursive; */
   transform: translateX(-50%);
 }
 .contant_header::after {
