@@ -20,3 +20,17 @@ function Menu() {
     }
   }
 }
+// FQAs functions
+
+document.querySelectorAll(".cont-show")[0].addEventListener("click", () => {
+  // alert("all iok");
+  document.querySelectorAll(".sub-cont-3")[0].classList.toggle("extra-show");
+});
+document.querySelectorAll(".cont-show")[1].addEventListener("click", () => {
+  // alert("all iok");
+  document.querySelectorAll(".sub-cont-3")[1].classList.toggle("extra-show");
+});
+document.querySelectorAll(".cont-show")[2].addEventListener("click", () => {
+  // alert("all iok");
+  document.querySelectorAll(".sub-cont-3")[2].classList.toggle("extra-show");
+});

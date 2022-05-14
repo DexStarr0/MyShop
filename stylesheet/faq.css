@@ -1,0 +1,62 @@
+/* formate-8 */
+.formate-8 {
+  padding-bottom: 4rem;
+  transition: 0.6s;
+}
+.formate-8 .faqs section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.formate-8 .faqs .sub-cont-3 {
+  position: relative;
+  width: 100%;
+  margin: 10px 0;
+  background: #fff;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  /* transition: 0.6s; */
+}
+.formate-8 .faqs .sub-cont-3 .cont-show {
+  display: flex;
+  height: 58px;
+  border-radius: 12px;
+  flex-direction: row;
+  align-items: center;
+  transition: 0.3s;
+}
+.formate-8 .faqs .sub-cont-3 .cont-show .fas {
+  padding: 25px;
+  font-size: 13px;
+  color: #6308bd;
+  transition: 0.6s;
+}
+.formate-8 .faqs .sub-cont-3 .main-cont {
+  font-size: 16px;
+  cursor: pointer;
+}
+.extra-cont {
+  font-size: 14px;
+  color: #6d6d6d;
+  line-height: 1rem;
+  padding: 40px;
+  display: none;
+}
+.extra-show .extra-cont {
+  display: block;
+}
+.formate-8 .faqs .extra-show .cont-show {
+  background: #6308bd;
+  color: #fff;
+}
+.formate-8 .faqs .extra-show .cont-show .fas {
+  color: #fff;
+  transform: rotate(90deg);
+}
+/* end */
+@media (max-width: 700px) {
+  .formate-8 {
+    padding-bottom: 4rem;
+  }
+}

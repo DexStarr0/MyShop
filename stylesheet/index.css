@@ -154,7 +154,7 @@ div .content a:hover {
   color: #000;
   position: relative;
   left: 50%;
-  font-family: "Itim", cursive;
+  /* font-family: "Itim", cursive; */
   transform: translateX(-50%);
 }
 .contant_header::after {
