@@ -1,0 +1,149 @@
+* {
+  position: relative;
+}
+:root {
+  --nav-heigh: 80px;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 21px;
+  text-align: center;
+}
+.header {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+}
+.header .top_notification {
+  background-color: #ffcb2a;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 0.8rem;
+  line-height: 1;
+  z-index: 10;
+}
+.header .top_notification #not-bell {
+  height: 2rem;
+}
+.header .top_notification .ans-msg {
+  /* padding: 0 45px; */
+}
+.caution {
+  font-size: 15px;
+}
+/* .caution::after {
+  content: "";
+  background-color: black;
+  height: 1px;
+  width: 45%;
+  display: block;
+  margin: auto;
+} */
+
+.header nav {
+  background: #6e07c7;
+}
+.navbar {
+  position: relative;
+  height: var(--nav-heigh);
+  transition: 0.6s;
+}
+.scroll-ani .navbar {
+  height: 65px;
+}
+.navbar .sign-in {
+  position: absolute;
+  width: 147px;
+  height: 40px;
+  background: #fa8f04;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  border-color: transparent;
+
+  box-shadow: 0px 6px 0px 0px #c6640f;
+  border-radius: 10px;
+
+  top: 50%;
+  right: 5%;
+  transform: translateY(-50%);
+  transition: 0.6s;
+}
+.scroll-ani .navbar .sign-in {
+  width: 140px;
+  height: 36px;
+}
+.fa-bars {
+  position: absolute;
+  display: none;
+  z-index: 10000;
+  visibility: none;
+  font-size: 0;
+}
+.navbar .nav-link {
+  height: var(--nav-heigh);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 600px;
+  width: 50%;
+  margin: auto;
+  transition: 0.6s;
+}
+.scroll-ani .navbar .nav-link {
+  height: 65px;
+}
+
+.header .navbar .nav-link #coming-soon::after {
+  content: "With Guarantee";
+  display: block;
+  font-size: 12px;
+  color: #fa8f04;
+}
+.header .navbar .logo {
+  height: 3rem;
+}
+
+@media (max-width: 700px) {
+  .navbar {
+    height: 65px;
+    transition: 0.6s;
+  }
+  .fa-bars {
+    position: absolute;
+    z-index: 10000;
+    font-size: 40px;
+    padding: 15px 25px;
+    color: #fff;
+    top: 0;
+    left: 0;
+    display: block;
+  }
+  .navbar .nav-link {
+    position: absoute;
+    background: #6308bd;
+    top: -500px;
+    width: 100vw;
+    min-width: 100vw;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.6s;
+  }
+  .scroll-ani .navbar {
+    height: 65px;
+  }
+
+  .scroll-ani .navbar .nav-link {
+    height: 300px;
+  }
+}
