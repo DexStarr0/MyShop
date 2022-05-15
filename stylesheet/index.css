@@ -1,13 +1,15 @@
 @font-face {
   font-family: Gumela;
-  src: url("/fonts/Gumela\ Regular.otf");
+  src: url("/fonts/Gumela.otf");
 }
 * {
   margin: 0;
   padding: 0;
   /* font-family: "Gumela"; */
 }
-
+body {
+  background-color: rgb(240, 240, 247);
+}
 /* navigation bar and font screen */
 .banner {
   width: 100%;
@@ -93,19 +95,29 @@ div .content a:hover {
 }
 .col-Palang {
   margin: 15px;
+  /* width: 479px; */
+  /* height: 214px; */
+  background: #ffffff;
+  box-shadow: 10px 10px 20px rgba(0, 26, 255, 0.15);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
 }
 .product_name {
+  order: 2;
   margin: 9px;
   font-size: large;
   text-transform: capitalize;
 }
 
 .col-Palang img {
-  width: 400px;
+  order: 1;
+  width: 300px;
   border-radius: 10px;
   overflow: hidden;
 }
 .price_bar {
+  order: 3;
   display: flex;
   justify-content: space-between;
   margin: 10px;
